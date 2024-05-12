@@ -1,0 +1,54 @@
+PODS:
+  - Apptics-SDK (2.0):
+    - Apptics-SDK/Analytics (= 2.0)
+  - Apptics-SDK/Analytics (2.0):
+    - Apptics-SDK/Scripts
+    - AppticsAnalytics (= 2.0)
+  - Apptics-SDK/Scripts (2.0)
+  - Apptics-Swift (2.0):
+    - Apptics-SDK (= 2.0)
+    - Apptics-Swift/Analytics (= 2.0)
+  - Apptics-Swift/Analytics (2.0):
+    - Apptics-SDK (= 2.0)
+  - AppticsAnalytics (2.0):
+    - AppticsAnalytics/Core (= 2.0)
+  - AppticsAnalytics/Apptics (2.0):
+    - AppticsAnalytics/JWT
+  - AppticsAnalytics/Core (2.0):
+    - AppticsAnalytics/Apptics
+    - AppticsAnalytics/CrashKit
+    - AppticsAnalytics/EventTracker
+    - AppticsAnalytics/ScreenTracker
+  - AppticsAnalytics/CrashKit (2.0):
+    - AppticsAnalytics/KSCrash
+  - AppticsAnalytics/EventTracker (2.0)
+  - AppticsAnalytics/JWT (2.0)
+  - AppticsAnalytics/KSCrash (2.0)
+  - AppticsAnalytics/ScreenTracker (2.0)
+  - AppticsRemoteConfig (2.0):
+    - AppticsRemoteConfig/RemoteConfig (= 2.0)
+  - AppticsRemoteConfig/RemoteConfig (2.0):
+    - AppticsAnalytics/Apptics (= 2.0)
+
+DEPENDENCIES:
+  - Apptics-SDK (= 2.0)
+  - Apptics-SDK/Scripts (= 2.0)
+  - Apptics-Swift (= 2.0)
+  - AppticsRemoteConfig (= 2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Apptics-SDK
+    - Apptics-Swift
+    - AppticsAnalytics
+    - AppticsRemoteConfig
+
+SPEC CHECKSUMS:
+  Apptics-SDK: 4eaec042edc09ca9c7fb0ae41f1535df67275b6b
+  Apptics-Swift: 922be57968a00ccb1b413b96a31d47a73e8877ec
+  AppticsAnalytics: 12d3e4e446605a085750f4c1e1c2970eacad321a
+  AppticsRemoteConfig: 60cb55d18b1dbf49629a1893a02c2e45615a0785
+
+PODFILE CHECKSUM: d38e5835ffabae57e577222bf3c0197f84122eae
+
+COCOAPODS: 1.11.3

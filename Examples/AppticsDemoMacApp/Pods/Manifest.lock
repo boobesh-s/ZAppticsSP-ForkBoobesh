@@ -1,0 +1,16 @@
+PODS:
+  - Apptics-SDK/Scripts (2.0)
+
+DEPENDENCIES:
+  - Apptics-SDK/Scripts (= 2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Apptics-SDK
+
+SPEC CHECKSUMS:
+  Apptics-SDK: 4eaec042edc09ca9c7fb0ae41f1535df67275b6b
+
+PODFILE CHECKSUM: 9fbb72074bda44a16b837d4702935aa57cb47bfb
+
+COCOAPODS: 1.11.3
